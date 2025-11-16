@@ -81,7 +81,7 @@ export default function ContattiPage() {
               Hai Bisogno di un Preventivo?
             </h2>
             <p className="text-xl text-red-100 mb-8 max-w-2xl mx-auto">
-              Compila il nostro modulo di richiesta preventivo e ricevi un'offerta personalizzata entro 24 ore
+              Compila il nostro modulo di richiesta preventivo e ricevi un&apos;offerta personalizzata entro 24 ore
             </p>
             <Link href="/preventivo" className="inline-block bg-white text-fortinet-red px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
               Richiedi Preventivo Gratuito
@@ -160,7 +160,7 @@ export default function ContattiPage() {
                   <li>• Perugia</li>
                   <li>• Ancona</li>
                   <li>• Pescara</li>
-                  <li>• L'Aquila</li>
+                  <li>• L&apos;Aquila</li>
                 </ul>
               </div>
               <div>

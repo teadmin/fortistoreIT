@@ -28,7 +28,7 @@ const SEOContent = () => {
                 Acquista Fortinet in Italia con Consegna Rapida
               </h3>
               <p className="text-gray-600 mb-4">
-                FortiStore Italia è il tuo partner di fiducia per l'acquisto di prodotti Fortinet. Offriamo:
+                FortiStore Italia è il tuo partner di fiducia per l&apos;acquisto di prodotti Fortinet. Offriamo:
               </p>
               <ul className="text-gray-600 space-y-2">
                 <li>✓ <strong>Spedizione gratuita</strong> in tutta Italia per ordini superiori a €500</li>
