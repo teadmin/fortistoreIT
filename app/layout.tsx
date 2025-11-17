@@ -86,6 +86,9 @@ export default function RootLayout({
         {/* Bing Webmaster Tools */}
         <meta name="msvalidate.01" content="your-bing-verification-code" />
 
+        {/* HubSpot Tracking Code */}
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/20066871.js"></script>
+
         {/* Structured Data for Google */}
         <script
           type="application/ld+json"
