@@ -1,0 +1,329 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "FortiStore IT",
+  "description": "Rivenditore autorizzato Fortinet specializzato in soluzioni di sicurezza di rete per aziende in Italia. Offriamo firewall FortiGate, FortiSwitch, FortiAP, FortiAnalyzer e altre soluzioni di cybersecurity enterprise.",
+  "url": "https://fortistoreit.com",
+  "logo": "https://fortistoreit.com/logo.png",
+  "foundingDate": "2024",
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "IT",
+      "addressRegion": "Italia"
+    }
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Sales",
+    "availableLanguage": ["Italian", "English"],
+    "areaServed": "IT"
+  },
+  "sameAs": [],
+  "keywords": [
+    "Fortinet Italia",
+    "FortiGate Italia",
+    "Firewall Fortinet",
+    "Sicurezza di rete",
+    "Cybersecurity aziendale",
+    "FortiSwitch",
+    "FortiAP",
+    "FortiAnalyzer",
+    "FortiManager",
+    "FortiMail",
+    "FortiWeb",
+    "Next-generation firewall",
+    "NGFW Italia",
+    "Firewall aziendale",
+    "WiFi 6 enterprise",
+    "Network security Italia"
+  ],
+  "offers": {
+    "@type": "AggregateOffer",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "EUR",
+    "itemOffered": [
+      {
+        "@type": "Product",
+        "name": "FortiGate Firewall Series",
+        "description": "Firewall di nuova generazione con protezione avanzata dalle minacce, VPN SSL/IPSec, web filtering, application control e IPS integrato",
+        "category": "Network Security",
+        "brand": {
+          "@type": "Brand",
+          "name": "Fortinet"
+        },
+        "manufacturer": {
+          "@type": "Organization",
+          "name": "Fortinet"
+        },
+        "audience": {
+          "@type": "BusinessAudience",
+          "audienceType": "Enterprise, SMB, SOHO"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "FortiSwitch Series",
+        "description": "Switch gestiti Layer 2/3 con integrazione nativa FortiLink, PoE+, sicurezza avanzata e gestione centralizzata tramite FortiGate",
+        "category": "Network Infrastructure",
+        "brand": {
+          "@type": "Brand",
+          "name": "Fortinet"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "FortiAP Series",
+        "description": "Access Point WiFi 6 enterprise con gestione cloud/on-premise, roaming seamless e sicurezza avanzata wireless",
+        "category": "Wireless Networking",
+        "brand": {
+          "@type": "Brand",
+          "name": "Fortinet"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "FortiAnalyzer",
+        "description": "Piattaforma centralizzata per logging, analytics e reporting di sicurezza per ambienti Fortinet distribuiti",
+        "category": "Security Management",
+        "brand": {
+          "@type": "Brand",
+          "name": "Fortinet"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "FortiManager",
+        "description": "Soluzione di gestione centralizzata per amministrare configurazioni, policy e firmware di dispositivi Fortinet da un'unica console",
+        "category": "Network Management",
+        "brand": {
+          "@type": "Brand",
+          "name": "Fortinet"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "FortiMail",
+        "description": "Email security gateway con protezione anti-spam, anti-phishing, DLP e sandboxing per email aziendali",
+        "category": "Email Security",
+        "brand": {
+          "@type": "Brand",
+          "name": "Fortinet"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "FortiWeb",
+        "description": "Web Application Firewall (WAF) per proteggere applicazioni web da OWASP Top 10, SQL injection, XSS e attacchi zero-day",
+        "category": "Application Security",
+        "brand": {
+          "@type": "Brand",
+          "name": "Fortinet"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "FortiWiFi",
+        "description": "Firewall FortiGate con controller WiFi integrato e access point wireless per PMI e uffici distribuiti",
+        "category": "Unified Threat Management",
+        "brand": {
+          "@type": "Brand",
+          "name": "Fortinet"
+        }
+      }
+    ]
+  },
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Consulenza Fortinet",
+        "description": "Servizio di consulenza personalizzato per la scelta della soluzione Fortinet più adatta alle esigenze aziendali"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Preventivi Personalizzati",
+        "description": "Preventivi gratuiti e personalizzati per soluzioni Fortinet complete, con supporto tecnico pre-vendita"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Assistenza Tecnica",
+        "description": "Supporto tecnico per configurazione, deployment e troubleshooting di soluzioni Fortinet"
+      }
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Catalogo Prodotti Fortinet",
+    "itemListElement": [
+      {
+        "@type": "OfferCatalog",
+        "name": "Firewall e Sicurezza Perimetrale",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "FortiGate 40F",
+              "sku": "FG-40F",
+              "description": "Firewall NGFW per piccoli uffici, fino a 10 utenti, throughput 5 Gbps, VPN SSL/IPSec",
+              "category": "Entry-level Firewall"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "FortiGate 60F",
+              "sku": "FG-60F",
+              "description": "Firewall NGFW per PMI, fino a 25 utenti, throughput 10 Gbps, HA support",
+              "category": "SMB Firewall"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "FortiGate 100F",
+              "sku": "FG-100F",
+              "description": "Firewall NGFW mid-range, fino a 50 utenti, throughput 25 Gbps, SD-WAN",
+              "category": "Mid-range Firewall"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "FortiGate 200F",
+              "sku": "FG-200F",
+              "description": "Firewall NGFW enterprise, fino a 150 utenti, throughput 50 Gbps",
+              "category": "Enterprise Firewall"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Switch di Rete",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "FortiSwitch 108F-POE",
+              "sku": "FS-108F-POE",
+              "description": "Switch 8 porte Gigabit con PoE+, gestione FortiLink",
+              "category": "Access Switch"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "FortiSwitch 124F-POE",
+              "sku": "FS-124F-POE",
+              "description": "Switch 24 porte Gigabit con PoE+, Layer 3, stacking",
+              "category": "Distribution Switch"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "WiFi e Wireless",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "FortiAP 231F",
+              "sku": "FAP-231F",
+              "description": "Access Point WiFi 6 indoor, dual-band, MU-MIMO",
+              "category": "Indoor Access Point"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "FortiAP 431F",
+              "sku": "FAP-431F",
+              "description": "Access Point WiFi 6 outdoor, weatherproof, mesh support",
+              "category": "Outdoor Access Point"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "knowsAbout": [
+    "Network Security",
+    "Firewall Configuration",
+    "Next-Generation Firewall (NGFW)",
+    "Intrusion Prevention System (IPS)",
+    "Virtual Private Network (VPN)",
+    "Secure SD-WAN",
+    "Web Application Firewall (WAF)",
+    "Email Security",
+    "WiFi 6",
+    "Network Segmentation",
+    "Zero Trust Network Access",
+    "Threat Intelligence",
+    "Security Information and Event Management (SIEM)",
+    "Network Access Control (NAC)",
+    "Secure Access Service Edge (SASE)"
+  ],
+  "areaServed": {
+    "@type": "Country",
+    "name": "Italy",
+    "sameAs": "https://www.wikidata.org/wiki/Q38"
+  },
+  "serviceArea": [
+    {
+      "@type": "City",
+      "name": "Milano"
+    },
+    {
+      "@type": "City",
+      "name": "Roma"
+    },
+    {
+      "@type": "City",
+      "name": "Torino"
+    },
+    {
+      "@type": "City",
+      "name": "Firenze"
+    },
+    {
+      "@type": "City",
+      "name": "Bologna"
+    },
+    {
+      "@type": "City",
+      "name": "Napoli"
+    },
+    {
+      "@type": "City",
+      "name": "Venezia"
+    },
+    {
+      "@type": "City",
+      "name": "Genova"
+    }
+  ],
+  "additionalType": [
+    "https://schema.org/Store",
+    "https://schema.org/OnlineStore",
+    "https://schema.org/ComputerStore"
+  ],
+  "slogan": "Soluzioni Fortinet per la sicurezza della tua rete aziendale"
+}
