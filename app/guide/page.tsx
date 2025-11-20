@@ -250,7 +250,7 @@ export default function GuidePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Guide Tecniche Fortinet</h1>
           <p className="text-xl text-red-100 max-w-3xl">
-            Tutorial completi, best practice e casi d'uso reali per FortiGate, FortiSwitch, FortiAP e soluzioni Fortinet
+            Tutorial completi, best practice e casi d&apos;uso reali per FortiGate, FortiSwitch, FortiAP e soluzioni Fortinet
           </p>
         </div>
       </div>
@@ -304,7 +304,7 @@ export default function GuidePage() {
 
         {/* Casi d'Uso Reali */}
         <section>
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Casi d'Uso Reali per Settore</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">Casi d&apos;Uso Reali per Settore</h2>
           <p className="text-gray-600 mb-8">
             Scopri come aziende simili alla tua hanno risolto le loro sfide di sicurezza con Fortinet
           </p>
