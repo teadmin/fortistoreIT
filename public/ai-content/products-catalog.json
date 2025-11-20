@@ -1,0 +1,530 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Catalogo Completo Prodotti Fortinet - FortiStore IT",
+  "description": "Catalogo completo di tutti i prodotti Fortinet disponibili presso FortiStore IT, con specifiche tecniche, casi d'uso e informazioni per AI assistants",
+  "numberOfItems": 8,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "ProductGroup",
+        "name": "FortiGate - Next-Generation Firewall",
+        "description": "Serie di firewall NGFW con protezione avanzata dalle minacce, SD-WAN, SSL/IPSec VPN, web filtering, application control, IPS e antivirus integrato. Ideale per proteggere il perimetro di rete aziendale.",
+        "brand": "Fortinet",
+        "category": "Network Security / Firewall",
+        "audience": "PMI, Enterprise, SOHO, Data Center",
+        "useCases": [
+          "Protezione perimetrale della rete aziendale",
+          "Implementazione SD-WAN per sedi distribuite",
+          "VPN site-to-site e remote access per smart working",
+          "Web filtering e application control per la produttività",
+          "Prevenzione intrusioni (IPS) e protezione malware",
+          "Segmentazione di rete con VLAN e zone di sicurezza",
+          "Gestione centralizzata con FortiManager"
+        ],
+        "features": [
+          "Next-Generation Firewall (NGFW)",
+          "SD-WAN integrato",
+          "VPN SSL e IPSec",
+          "IPS (Intrusion Prevention System)",
+          "Antivirus e Anti-malware",
+          "Web Filtering e DNS Filtering",
+          "Application Control",
+          "SSL Inspection",
+          "Threat Intelligence in tempo reale",
+          "Alta disponibilità (HA) Active-Passive e Active-Active",
+          "Gestione FortiLink per switch",
+          "Controller WiFi integrato (alcuni modelli)"
+        ],
+        "models": [
+          "FortiGate 40F - Entry level per piccoli uffici (5-10 utenti)",
+          "FortiGate 60F - PMI piccole (10-25 utenti)",
+          "FortiGate 80F - PMI medie (25-50 utenti)",
+          "FortiGate 100F - PMI grandi (50-100 utenti)",
+          "FortiGate 200F - Enterprise piccole (100-250 utenti)",
+          "FortiGate 400F - Enterprise medie (250-500 utenti)",
+          "FortiGate 600F - Enterprise grandi (500-1000 utenti)",
+          "FortiGate 1000F+ - Data Center e Service Provider"
+        ],
+        "technicalSpecs": {
+          "throughput": "Da 1 Gbps fino a 1 Tbps (a seconda del modello)",
+          "vpnTunnels": "Da 10 fino a illimitati",
+          "interfaces": "Da 4 fino a 128+ porte",
+          "poe": "Disponibile su alcuni modelli (FortiGate 60F-POE, 80F-POE)",
+          "sdWan": "Supporto completo con SLA monitoring e link load balancing",
+          "highAvailability": "Active-Passive e Active-Active clustering"
+        },
+        "integrations": [
+          "FortiSwitch (via FortiLink)",
+          "FortiAP (wireless controller)",
+          "FortiManager (gestione centralizzata)",
+          "FortiAnalyzer (logging e reporting)",
+          "FortiToken (2FA)",
+          "FortiAuthenticator (identity management)",
+          "FortiSandbox (advanced threat protection)"
+        ],
+        "certifications": [
+          "ICSA Firewall",
+          "NSS Labs NGFW Recommended",
+          "Common Criteria EAL4+",
+          "FIPS 140-2"
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "ProductGroup",
+        "name": "FortiSwitch - Managed Ethernet Switch",
+        "description": "Switch gestiti Layer 2/3 con integrazione FortiLink nativa per gestione semplificata da FortiGate. PoE/PoE+ per alimentare telefoni IP, telecamere e access point. Ideale per reti aziendali sicure e performanti.",
+        "brand": "Fortinet",
+        "category": "Network Infrastructure / Switches",
+        "audience": "PMI, Enterprise, Campus, Data Center",
+        "useCases": [
+          "Distribuzione LAN aziendale con gestione centralizzata",
+          "Alimentazione PoE per telefoni VoIP e telecamere IP",
+          "Segmentazione di rete con VLAN e ACL",
+          "Stacking per alta disponibilità e scalabilità",
+          "Integrazione Security Fabric con FortiGate",
+          "Campus network con Layer 3 routing",
+          "Edge switching per uffici distribuiti"
+        ],
+        "features": [
+          "Gestione FortiLink (zero-touch provisioning da FortiGate)",
+          "PoE/PoE+ fino a 30W per porta",
+          "Layer 2 switching ad alte prestazioni",
+          "Layer 3 routing statico e dinamico (modelli selezionati)",
+          "VLAN, STP, LACP, QoS",
+          "Stacking fino a 8 unità",
+          "Security Fabric integration",
+          "Port security e 802.1X NAC",
+          "ACL e traffic shaping",
+          "IPv6 ready"
+        ],
+        "models": [
+          "FortiSwitch 108F-POE - 8 porte GbE PoE+, desktop/rack",
+          "FortiSwitch 124F-POE - 24 porte GbE PoE+, 4x SFP+",
+          "FortiSwitch 148F-POE - 48 porte GbE PoE+, 4x SFP+",
+          "FortiSwitch 224F-POE - 24 porte GbE PoE+, Layer 3, stacking",
+          "FortiSwitch 248F-POE - 48 porte GbE PoE+, Layer 3, stacking",
+          "FortiSwitch 424F - 24 porte SFP+ 10GbE, aggregation",
+          "FortiSwitch 448F - 48 porte SFP+ 10GbE, core network"
+        ],
+        "technicalSpecs": {
+          "switchingCapacity": "Da 56 Gbps fino a 1.28 Tbps",
+          "poePortsMax": "Fino a 48 porte PoE/PoE+",
+          "poeBudget": "Da 130W fino a 740W",
+          "stackingMax": "Fino a 8 unità (bandwidth 40 Gbps)",
+          "sfpPorts": "Da 2 fino a 48 porte SFP/SFP+",
+          "layerSupport": "Layer 2 (tutti), Layer 3 (serie F e superiori)"
+        },
+        "integrations": [
+          "FortiGate (gestione FortiLink)",
+          "FortiManager (config backup e template)",
+          "FortiAnalyzer (syslog e analytics)",
+          "FortiAuthenticator (802.1X NAC)"
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "ProductGroup",
+        "name": "FortiAP - Enterprise WiFi Access Point",
+        "description": "Access Point WiFi 6 (802.11ax) gestiti da FortiGate o FortiCloud. Roaming seamless, MU-MIMO, beamforming, controllo guest WiFi e sicurezza wireless avanzata. Per ambienti indoor e outdoor.",
+        "brand": "Fortinet",
+        "category": "Wireless Networking / Access Points",
+        "audience": "Uffici, Hotel, Campus, Retail, Ospedali",
+        "useCases": [
+          "WiFi aziendale sicuro per dipendenti e ospiti",
+          "Hotspot WiFi per hotel e retail",
+          "Campus WiFi con roaming seamless",
+          "Outdoor WiFi per aree esterne e parcheggi",
+          "Wireless mesh per ambienti difficili da cablare",
+          "IoT wireless per dispositivi smart",
+          "BYOD (Bring Your Own Device) con sicurezza avanzata"
+        ],
+        "features": [
+          "WiFi 6 (802.11ax) con OFDMA e MU-MIMO",
+          "Dual-band 2.4GHz e 5GHz simultaneous",
+          "Gestione da FortiGate (controller integrato) o FortiCloud",
+          "Multiple SSID con VLAN tagging",
+          "Captive portal personalizzabile",
+          "WPA3 encryption e rogue AP detection",
+          "Band steering e airtime fairness",
+          "Roaming 802.11k/r/v",
+          "PoE/PoE+ powered",
+          "Spectrum analysis (modelli selezionati)",
+          "Mesh networking (wireless backhaul)",
+          "Application visibility e control"
+        ],
+        "models": [
+          "FortiAP 221F - WiFi 5 dual-band indoor, entry-level",
+          "FortiAP 231F - WiFi 6 dual-band indoor, 2x2 MIMO",
+          "FortiAP 431F - WiFi 6 dual-band indoor, 4x4 MIMO, alta densità",
+          "FortiAP 432F - WiFi 6 outdoor weatherproof, mesh capable",
+          "FortiAP 433F - WiFi 6 outdoor industrial, IP67 rated",
+          "FortiAP U431F - WiFi 6 outdoor omnidirezionale, mesh"
+        ],
+        "technicalSpecs": {
+          "wifiStandard": "WiFi 6 (802.11ax) / WiFi 5 (802.11ac)",
+          "maxSpeed": "Fino a 3 Gbps aggregato (2.4GHz + 5GHz)",
+          "antennas": "2x2 o 4x4 MIMO a seconda del modello",
+          "clientsPerAP": "Fino a 512 client (raccomandato 50-100)",
+          "power": "PoE 802.3af/at, alcuni modelli DC 12V",
+          "mounting": "Ceiling mount, wall mount, pole mount (outdoor)"
+        ],
+        "integrations": [
+          "FortiGate (wireless controller integrato)",
+          "FortiCloud (gestione cloud)",
+          "FortiManager (config management)",
+          "FortiAnalyzer (client analytics)",
+          "FortiAuthenticator (802.1X authentication)"
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "ProductGroup",
+        "name": "FortiAnalyzer - Security Analytics and Logging",
+        "description": "Piattaforma centralizzata per logging, analytics, reporting e compliance di dispositivi Fortinet. Archiviazione sicura di log, correlazione eventi, dashboard interattive e report personalizzati. Essenziale per ambienti distribuiti.",
+        "brand": "Fortinet",
+        "category": "Security Management / SIEM",
+        "audience": "Enterprise, MSSP, Data Center, Compliance",
+        "useCases": [
+          "Centralizzazione log di firewall, switch e AP distribuiti",
+          "Analisi forense di incidenti di sicurezza",
+          "Reporting di compliance (GDPR, PCI-DSS, ISO 27001)",
+          "Monitoraggio real-time di traffico e minacce",
+          "Audit trail per accessi VPN e modifiche configurazione",
+          "Alerting automatico su eventi critici",
+          "Dashboard executive per management",
+          "Retention log a lungo termine (mesi/anni)"
+        ],
+        "features": [
+          "Log collection da tutti i dispositivi Fortinet",
+          "Storage sicuro e ridondante",
+          "SQL-based query engine",
+          "Dashboard interattive personalizzabili",
+          "Report schedulati (PDF, HTML, CSV)",
+          "Event correlation e threat intelligence",
+          "Compliance report templates (PCI, HIPAA, GDPR)",
+          "Alert e notifiche (email, SNMP, syslog)",
+          "FortiView analytics integrato",
+          "API REST per integrazione esterna",
+          "Alta disponibilità con clustering",
+          "Log forwarding verso SIEM esterni"
+        ],
+        "models": [
+          "FortiAnalyzer-VM - Virtual appliance per VMware/Hyper-V/KVM",
+          "FortiAnalyzer 200F - Hardware appliance per PMI (fino a 10 GB/day)",
+          "FortiAnalyzer 1000F - Mid-range (fino a 100 GB/day)",
+          "FortiAnalyzer 3000F - Enterprise (fino a 500 GB/day)",
+          "FortiAnalyzer 3500F - Large enterprise (fino a 1 TB/day)"
+        ],
+        "technicalSpecs": {
+          "logStorage": "Da 1 TB fino a 100+ TB a seconda del modello",
+          "logRate": "Da 1,000 fino a 100,000+ logs/sec",
+          "devices": "Gestisce da 10 fino a 10,000+ dispositivi",
+          "retention": "Configurabile, tipicamente 30-365 giorni o più",
+          "clustering": "Supporto HA e load balancing"
+        },
+        "integrations": [
+          "Tutti i dispositivi Fortinet (FortiGate, FortiSwitch, FortiAP, ecc.)",
+          "FortiSIEM per correlazione avanzata",
+          "SIEM esterni (Splunk, QRadar, ArcSight) via syslog/API",
+          "Ticketing systems (ServiceNow, JIRA)"
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "ProductGroup",
+        "name": "FortiManager - Centralized Network Management",
+        "description": "Console centralizzata per gestione di configurazioni, policy, firmware e provisioning di dispositivi Fortinet distribuiti. Template-based configuration, change management, e deployment automatizzato per ambienti multi-tenant e multi-sito.",
+        "brand": "Fortinet",
+        "category": "Network Management / Configuration Management",
+        "audience": "Enterprise distribuita, MSSP, System Integrator",
+        "useCases": [
+          "Gestione centralizzata di firewall in sedi multiple",
+          "Deployment policy standardizzate su centinaia di dispositivi",
+          "Change management e audit di configurazioni",
+          "Firmware update orchestrato e schedulato",
+          "Multi-tenancy per MSSP (Managed Service Provider)",
+          "Template-based provisioning (zero-touch)",
+          "Backup automatico di configurazioni",
+          "Compliance e drift detection"
+        ],
+        "features": [
+          "Gestione centralizzata multi-dispositivo",
+          "Template e object database condivisi",
+          "Policy package per deployment scalabile",
+          "Workflow di change approval",
+          "Firmware management e scheduling",
+          "SD-WAN orchestration",
+          "ADOM (Administrative Domain) per multi-tenancy",
+          "Script automation (CLI e API)",
+          "Configuration backup e restore",
+          "Compliance audit e drift detection",
+          "Integration con FortiAnalyzer",
+          "RESTful API per automazione"
+        ],
+        "models": [
+          "FortiManager-VM - Virtual appliance",
+          "FortiManager 200F - Gestisce fino a 100 dispositivi",
+          "FortiManager 1000F - Gestisce fino a 1,000 dispositivi",
+          "FortiManager 3000F - Gestisce fino a 10,000 dispositivi"
+        ],
+        "technicalSpecs": {
+          "devicesManaged": "Da 10 fino a 100,000+ dispositivi",
+          "adoms": "Fino a 10,000 ADOM (multi-tenancy)",
+          "users": "Gestione RBAC con admin delegati",
+          "storage": "Per backup configurazioni e firmware repository"
+        },
+        "integrations": [
+          "Tutti i dispositivi Fortinet (FortiGate, FortiSwitch, FortiAP, ecc.)",
+          "FortiAnalyzer (unified management console)",
+          "Automation tools (Ansible, Terraform) via API",
+          "ITSM (ServiceNow, JIRA)"
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "ProductGroup",
+        "name": "FortiMail - Email Security Gateway",
+        "description": "Email security gateway con protezione anti-spam, anti-phishing, anti-malware, sandboxing e DLP. Protegge inbound e outbound email, con supporto Office 365 e Google Workspace integration.",
+        "brand": "Fortinet",
+        "category": "Email Security / Secure Email Gateway",
+        "audience": "Enterprise, PMI, settore sanitario, finance",
+        "useCases": [
+          "Protezione email da spam e phishing",
+          "Sandboxing di allegati sospetti",
+          "Data Loss Prevention (DLP) su email in uscita",
+          "Encryption email (S/MIME, TLS)",
+          "Archiving e compliance (GDPR, HIPAA)",
+          "Protezione Office 365 / Google Workspace",
+          "Quarantine management per utenti finali",
+          "Business Email Compromise (BEC) protection"
+        ],
+        "features": [
+          "Anti-spam multi-layer (IP reputation, content, heuristics)",
+          "Anti-phishing con URL rewriting e sandboxing",
+          "Anti-malware e antivirus",
+          "FortiSandbox integration per advanced threats",
+          "Data Loss Prevention (DLP) outbound",
+          "Email encryption (S/MIME, opportunistic TLS)",
+          "Email archiving per compliance",
+          "Quarantine self-service per utenti",
+          "Impersonation protection (CEO fraud)",
+          "URL filtering e rewriting",
+          "DKIM, SPF, DMARC validation",
+          "Supporto deployment: Gateway, MTA, API (Office365/Gmail)"
+        ],
+        "models": [
+          "FortiMail-VM - Virtual appliance cloud o on-premise",
+          "FortiMail 200F - PMI (fino a 250 utenti)",
+          "FortiMail 400F - Enterprise (fino a 1,000 utenti)",
+          "FortiMail 1000F - Large enterprise (fino a 5,000 utenti)",
+          "FortiMail Cloud - SaaS per Office 365 / Google Workspace"
+        ],
+        "technicalSpecs": {
+          "users": "Da 50 fino a 50,000+ utenti",
+          "throughput": "Da 100 fino a 10,000+ email/ora",
+          "storage": "Per archiving e quarantine",
+          "deployment": "Gateway, transparent, API mode"
+        },
+        "integrations": [
+          "Office 365 / Exchange Online",
+          "Google Workspace / Gmail",
+          "FortiSandbox (advanced threat analysis)",
+          "FortiGuard threat intelligence",
+          "LDAP/Active Directory",
+          "SIEM via syslog"
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "ProductGroup",
+        "name": "FortiWeb - Web Application Firewall",
+        "description": "Web Application Firewall (WAF) per proteggere applicazioni web e API da OWASP Top 10, SQL injection, XSS, DDoS layer 7, bot protection e attacchi zero-day. Machine learning per rilevamento anomalie.",
+        "brand": "Fortinet",
+        "category": "Application Security / WAF",
+        "audience": "E-commerce, SaaS, Finance, Healthcare, Gov",
+        "useCases": [
+          "Protezione applicazioni web (e-commerce, portali, CRM)",
+          "Compliance PCI-DSS (requisito 6.6)",
+          "Protezione API REST/SOAP",
+          "DDoS mitigation layer 7",
+          "Bot management e CAPTCHA",
+          "Protezione applicazioni legacy senza patch",
+          "SSL offloading e re-encryption",
+          "Geo-blocking e IP reputation"
+        ],
+        "features": [
+          "OWASP Top 10 protection (SQL injection, XSS, CSRF, ecc.)",
+          "Machine learning per anomaly detection",
+          "Signature-based e behavioral detection",
+          "API security (REST, SOAP, GraphQL)",
+          "Bot mitigation e CAPTCHA",
+          "DDoS protection layer 7",
+          "SSL/TLS offloading",
+          "Geo-IP filtering",
+          "Cookie security e session protection",
+          "Data masking e DLP",
+          "Virtual patching per CVE",
+          "Integration con FortiSandbox",
+          "Load balancing e HA"
+        ],
+        "models": [
+          "FortiWeb-VM - Virtual appliance (AWS, Azure, GCP, on-prem)",
+          "FortiWeb 100F - PMI (fino a 25 Mbps throughput)",
+          "FortiWeb 200F - Enterprise (fino a 100 Mbps)",
+          "FortiWeb 400F - Large apps (fino a 500 Mbps)",
+          "FortiWeb 1000F - Data center (fino a 2 Gbps)",
+          "FortiWeb Cloud - SaaS WAF"
+        ],
+        "technicalSpecs": {
+          "throughput": "Da 25 Mbps fino a 10+ Gbps",
+          "connections": "Da 10k fino a 500k+ concurrent connections",
+          "deployment": "Reverse proxy, transparent, offline mode",
+          "protocols": "HTTP, HTTPS, WebSocket"
+        },
+        "integrations": [
+          "FortiSandbox (malware analysis)",
+          "FortiGuard threat intelligence",
+          "SIEM via syslog",
+          "CI/CD pipelines (API-driven policies)",
+          "Cloud platforms (AWS, Azure, GCP)"
+        ],
+        "certifications": [
+          "PCI-DSS compliant",
+          "ICSA Web Application Firewall",
+          "Common Criteria"
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "ProductGroup",
+        "name": "FortiWiFi - Unified Threat Management con WiFi",
+        "description": "Firewall FortiGate con wireless controller integrato e WiFi onboard. Combina NGFW, VPN, SD-WAN e wireless access point in un unico appliance. Ideale per PMI e uffici distribuiti senza bisogno di AP separati.",
+        "brand": "Fortinet",
+        "category": "Unified Threat Management / Wireless Security",
+        "audience": "PMI, uffici remoti, retail, hospitality",
+        "useCases": [
+          "Branch office all-in-one (firewall + WiFi)",
+          "Retail con guest WiFi e POS security",
+          "Piccoli uffici senza budget per AP dedicati",
+          "Hotspot WiFi con captive portal",
+          "SD-WAN + WiFi per uffici distribuiti",
+          "SOHO avanzato con sicurezza enterprise"
+        ],
+        "features": [
+          "Tutte le funzioni FortiGate (NGFW, VPN, IPS, ecc.)",
+          "WiFi onboard dual-band 2.4/5 GHz",
+          "Wireless controller per FortiAP esterni (espandibilità)",
+          "Multiple SSID con segmentazione VLAN",
+          "Guest WiFi con captive portal",
+          "WPA2/WPA3 encryption",
+          "Rogue AP detection",
+          "SD-WAN integrato",
+          "FortiLink per FortiSwitch"
+        ],
+        "models": [
+          "FortiWiFi 40F - SOHO/piccoli uffici (5-10 utenti)",
+          "FortiWiFi 60F - PMI piccole (10-25 utenti)",
+          "FortiWiFi 80F - PMI medie (25-50 utenti)"
+        ],
+        "technicalSpecs": {
+          "firewall": "Identico a FortiGate serie F corrispondente",
+          "wifi": "WiFi 5 (802.11ac) dual-band onboard",
+          "wifiSpeed": "Fino a 1.3 Gbps aggregate",
+          "externalAP": "Supporto fino a 30+ FortiAP esterni"
+        },
+        "integrations": [
+          "FortiAP (wireless expansion)",
+          "FortiSwitch (via FortiLink)",
+          "FortiManager e FortiAnalyzer",
+          "Tutti i servizi FortiGuard"
+        ]
+      }
+    }
+  ],
+  "additionalInformation": {
+    "licensing": {
+      "description": "Tutti i prodotti Fortinet richiedono licenze di supporto e servizi FortiGuard",
+      "types": [
+        {
+          "name": "FortiCare Support",
+          "description": "Supporto tecnico, RMA hardware, firmware updates"
+        },
+        {
+          "name": "UTM Bundle",
+          "description": "IPS, Antivirus, Web Filtering, Application Control"
+        },
+        {
+          "name": "Enterprise Bundle",
+          "description": "UTM + Advanced Malware Protection + FortiSandbox Cloud"
+        },
+        {
+          "name": "SD-WAN Services",
+          "description": "Overlay controller e analytics"
+        }
+      ],
+      "duration": "1, 3 o 5 anni (sconto su multi-year)"
+    },
+    "support": {
+      "tiers": [
+        "FortiCare 8x5 (business hours)",
+        "FortiCare 24x7",
+        "FortiCare Premium (TAM dedicato)"
+      ]
+    },
+    "deployment": {
+      "options": [
+        "Hardware appliance on-premise",
+        "Virtual appliance (VM) per VMware/Hyper-V/KVM",
+        "Cloud instances (AWS, Azure, GCP, OCI)",
+        "SaaS managed (FortiWeb Cloud, FortiMail Cloud, FortiCloud WiFi)"
+      ]
+    },
+    "commonQuestions": [
+      {
+        "question": "Quale FortiGate scegliere per la mia azienda?",
+        "answer": "Dipende dal numero di utenti e throughput richiesto. Per 10-25 utenti: FortiGate 60F. Per 50-100 utenti: FortiGate 100F o 200F. Per enterprise >100 utenti: FortiGate 400F o superiori. Considera anche VPN concurrent users e servizi UTM abilitati."
+      },
+      {
+        "question": "FortiGate include già antivirus e IPS?",
+        "answer": "Le funzionalità sono incluse nel firmware, ma richiedono licenza FortiGuard UTM o Enterprise Bundle attiva per ricevere signature updates."
+      },
+      {
+        "question": "Posso gestire FortiSwitch senza FortiManager?",
+        "answer": "Sì, FortiSwitch si gestisce direttamente da FortiGate via FortiLink (zero-touch). FortiManager è opzionale per ambienti con molti dispositivi."
+      },
+      {
+        "question": "FortiAP funziona senza FortiGate?",
+        "answer": "FortiAP può essere gestito da FortiGate (on-prem controller) o FortiCloud (cloud controller). Non funziona standalone."
+      },
+      {
+        "question": "Che differenza c'è tra FortiGate e FortiWiFi?",
+        "answer": "FortiWiFi include WiFi onboard, FortiGate no. Stesso firewall, ma FortiWiFi ha radio WiFi integrato (utile per piccoli uffici)."
+      }
+    ]
+  }
+}
